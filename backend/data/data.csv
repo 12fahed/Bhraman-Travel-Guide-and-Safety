@@ -1,0 +1,47 @@
+Station,Landmark,crime_type,date_time,day_of_week,time_of_day,is_weekend,is_holiday,weather_condition,crowd_density,nearest_police_station_distance_km,security_personnel_present,cctv_coverage,lighting_condition,area_type,previous_month_similar_crimes,income_level_area,tourist_footfall,business_hours,event_nearby,public_transport_availability,road_type,past_week_incidents,description
+Churchgate,Gateway of India,Tourist scam,15-01-2024 14:30,Monday,Afternoon,FALSE,FALSE,Sunny,High,0.5,Yes,High,Good,Tourist,5,High,High,Yes,No,High,Main Road,3,Tourist targeted by fake tour guide
+Bandra,Bandstand,Vehicle theft,15-01-2024 02:15,Monday,Night,FALSE,FALSE,Clear,Low,2,No,Low,Poor,Residential,4,High,Low,No,No,Low,Side Street,2,Car stolen from parking area
+Andheri,Infinity Mall,Credit card fraud,15-01-2024 16:45,Monday,Evening,FALSE,FALSE,Sunny,High,0.8,Yes,High,Good,Commercial,6,High,High,Yes,No,High,Main Road,4,Multiple fraudulent transactions
+Dadar,Shivaji Park,Assault,16-01-2024 19:20,Tuesday,Evening,FALSE,FALSE,Clear,Medium,1.5,Yes,Medium,Medium,Recreation,3,Medium,Medium,Yes,Yes,High,Main Road,2,Fight during evening hours
+Lower Parel,Phoenix Mills,Shoplifting,16-01-2024 15:30,Tuesday,Afternoon,FALSE,FALSE,Sunny,High,1,Yes,High,Good,Commercial,8,High,High,Yes,No,High,Main Road,5,Retail theft from clothing store
+CSMT,Crawford Market,Counterfeit goods,16-01-2024 12:15,Tuesday,Afternoon,FALSE,FALSE,Sunny,High,0.3,Yes,Medium,Good,Market,7,Medium,High,Yes,No,High,Main Road,4,Fake branded products seized
+Borivali,Sanjay Gandhi National Park,Trespassing,17-01-2024 05:30,Wednesday,Morning,FALSE,FALSE,Clear,Low,3,Yes,Low,Poor,Forest,2,Low,Low,No,No,Low,Park Road,1,Unauthorized entry attempt
+Kurla,Phoenix Marketcity,Pickpocketing,17-01-2024 18:45,Wednesday,Evening,FALSE,FALSE,Clear,High,1.2,Yes,High,Good,Commercial,5,Medium,High,Yes,No,High,Main Road,3,Wallet stolen in crowd
+Vile Parle,Juhu Beach,Drug possession,17-01-2024 23:15,Wednesday,Night,FALSE,FALSE,Clear,Low,2.5,Yes,Low,Poor,Beach,4,High,Medium,No,No,Medium,Beach Road,2,Suspicious activity reported
+Mahalakshmi,Racecourse,Gambling,18-01-2024 21:30,Thursday,Night,FALSE,FALSE,Clear,Medium,1.8,Yes,Medium,Medium,Recreation,3,High,Low,No,Yes,Medium,Main Road,1,Illegal betting activity
+Marine Lines,Chowpatty Beach,Public nuisance,18-01-2024 20:45,Thursday,Night,FALSE,FALSE,Clear,High,1,Yes,Medium,Medium,Beach,6,Medium,High,No,No,High,Beach Road,4,Drunk and disorderly conduct
+Charni Road,Opera House,Jewelry theft,19-01-2024 14:20,Friday,Afternoon,FALSE,FALSE,Sunny,High,0.7,Yes,High,Good,Commercial,2,High,Medium,Yes,No,High,Main Road,1,Attempted robbery at jeweler
+Grant Road,Mani Bhavan,Vandalism,19-01-2024 02:15,Friday,Night,FALSE,FALSE,Clear,Low,1.5,No,Medium,Poor,Heritage,1,Medium,Low,No,No,Low,Side Street,1,Property damage reported
+Mumbai Central,Nair Hospital,Vehicle theft,19-01-2024 22:30,Friday,Night,FALSE,FALSE,Clear,Low,1.2,Yes,Medium,Medium,Medical,3,Medium,Low,No,No,Medium,Main Road,2,Two-wheeler stolen
+Matunga,Five Gardens,Chain snatching,20-01-2024 06:45,Saturday,Morning,TRUE,FALSE,Clear,Low,1.8,No,Low,Poor,Residential,4,Medium,Low,No,No,Low,Side Street,2,Morning walker targeted
+Sion,Sion Fort,Drug dealing,20-01-2024 23:45,Saturday,Night,TRUE,FALSE,Clear,Low,2.5,No,Low,Poor,Historical,3,Low,Low,No,No,Low,Hill Road,2,Suspicious gathering reported
+Byculla,Zoo,Pickpocketing,20-01-2024 16:30,Saturday,Afternoon,TRUE,FALSE,Sunny,High,1,Yes,Medium,Good,Tourist,7,Medium,High,Yes,No,High,Main Road,4,Multiple incidents reported
+Chinchpokli,Hindmata Market,Theft,21-01-2024 11:20,Sunday,Morning,TRUE,FALSE,Sunny,High,1.5,No,Medium,Good,Market,5,Medium,Medium,Yes,No,High,Main Road,3,Shop theft reported
+Currey Road,Lalbaug Market,Pickpocketing,21-01-2024 09:45,Sunday,Morning,TRUE,FALSE,Sunny,High,1.2,No,Medium,Good,Market,6,Medium,Medium,Yes,No,High,Main Road,4,Market crowd incident
+Parel,KEM Hospital,Vehicle theft,21-01-2024 15:30,Sunday,Afternoon,TRUE,FALSE,Sunny,Medium,1,Yes,Medium,Good,Medical,4,Medium,Medium,Yes,No,High,Main Road,2,Bike stolen from parking
+Churchgate,Marine Drive,Drug possession,22-01-2024 01:15,Monday,Night,FALSE,FALSE,Clear,Low,1.2,Yes,Medium,Poor,Recreation,3,High,Low,No,No,Medium,Main Road,2,Late night patrol check
+Bandra,Linking Road,Phone snatching,22-01-2024 19:30,Monday,Evening,FALSE,FALSE,Clear,High,0.8,Yes,High,Good,Commercial,8,High,High,Yes,No,High,Main Road,5,Mobile theft while shopping
+Andheri,Versova Beach,harassment,22-01-2024 18:45,Monday,Evening,FALSE,FALSE,Clear,Medium,2,Yes,Low,Medium,Beach,4,Medium,Medium,No,No,Medium,Beach Road,2,Eve-teasing incident reported
+Jogeshwari,Jogeshwari Caves,Vandalism,23-01-2024 14:15,Tuesday,Afternoon,FALSE,FALSE,Sunny,Low,2.5,No,Low,Good,Heritage,2,Low,Low,Yes,No,Low,Hill Road,1,Heritage site damage
+Goregaon,Film City,Theft,23-01-2024 16:30,Tuesday,Afternoon,FALSE,FALSE,Sunny,Medium,3,Yes,High,Good,Commercial,3,High,Low,Yes,No,Medium,Studio Road,2,Equipment theft reported
+Malad,InOrbit Mall,Credit card fraud,23-01-2024 20:15,Tuesday,Night,FALSE,FALSE,Clear,High,1,Yes,High,Good,Commercial,5,High,High,Yes,No,High,Main Road,3,Fraudulent transactions
+Kandivali,Charkop Market,Pickpocketing,24-01-2024 11:30,Wednesday,Morning,FALSE,FALSE,Sunny,High,1.5,No,Medium,Good,Market,6,Medium,Medium,Yes,No,High,Market Road,4,Wallet stolen in crowd
+Borivali,IC Colony,Vehicle theft,24-01-2024 03:15,Wednesday,Night,FALSE,FALSE,Clear,Low,2,No,Low,Poor,Residential,4,High,Low,No,No,Low,Colony Road,2,Car stolen from parking
+Dahisar,Dahisar River,Drug dealing,24-01-2024 22:45,Wednesday,Night,FALSE,FALSE,Clear,Low,2.5,No,Low,Poor,Riverside,3,Low,Low,No,No,Low,River Road,2,Suspicious activity
+Mira Road,Maxus Mall,Shoplifting,25-01-2024 16:20,Thursday,Afternoon,FALSE,FALSE,Sunny,High,1.2,Yes,High,Good,Commercial,7,Medium,Medium,Yes,No,High,Main Road,4,Retail theft incident
+Bhayander,Jesal Park,Chain snatching,25-01-2024 07:30,Thursday,Morning,FALSE,FALSE,Sunny,Low,1.8,No,Low,Good,Residential,5,Medium,Low,No,No,Medium,Park Road,3,Morning walker targeted
+Naigaon,Naigaon Beach,Public nuisance,25-01-2024 23:30,Thursday,Night,FALSE,FALSE,Clear,Low,2.5,No,Low,Poor,Beach,4,Low,Low,No,No,Low,Beach Road,2,Drunk behavior reported
+Vasai Road,Vasai Fort,Trespassing,26-01-2024 15:45,Friday,Afternoon,FALSE,TRUE,Sunny,Medium,3,Yes,Low,Good,Heritage,2,Low,Medium,Yes,No,Medium,Fort Road,1,Unauthorized entry
+Nalla Sopara,Nirmal Lake,Drug possession,26-01-2024 21:15,Friday,Night,FALSE,TRUE,Clear,Low,2.8,No,Low,Poor,Lake,3,Low,Low,No,No,Low,Lake Road,2,Suspicious gathering
+Virar,Arnala Beach,Theft,26-01-2024 17:30,Friday,Evening,FALSE,TRUE,Clear,Medium,2.5,No,Low,Medium,Beach,4,Low,Medium,No,No,Medium,Beach Road,2,Bag snatching incident
+CSMT,Asiatic Library,Pickpocketing,27-01-2024 12:45,Saturday,Afternoon,TRUE,FALSE,Sunny,High,0.5,Yes,High,Good,Heritage,6,High,High,Yes,No,High,Main Road,4,Tourist targeted
+Masjid,Crawford Market,Counterfeit,27-01-2024 10:30,Saturday,Morning,TRUE,FALSE,Sunny,High,0.8,Yes,Medium,Good,Market,8,Medium,High,Yes,No,High,Market Road,5,Fake currency detected
+Sandhurst Road,Bhatia Hospital,Vehicle theft,27-01-2024 02:15,Saturday,Night,TRUE,FALSE,Clear,Low,1.5,Yes,Medium,Poor,Medical,3,Medium,Low,No,No,Low,Hospital Road,2,Ambulance parking theft
+Byculla,Dr. Bhau Daji Lad Museum,Vandalism,28-01-2024 16:20,Sunday,Afternoon,TRUE,FALSE,Sunny,Medium,1.2,Yes,High,Good,Heritage,2,Medium,Medium,Yes,No,High,Museum Road,1,Property damage
+Chinchpokli,Hindmata Market,Theft,28-01-2024 11:45,Sunday,Morning,TRUE,FALSE,Sunny,High,1,No,Medium,Good,Market,7,Medium,High,Yes,No,High,Market Road,4,Shop theft reported
+Currey Road,Lalbaug Market,Pickpocketing,28-01-2024 09:30,Sunday,Morning,TRUE,FALSE,Sunny,High,1.2,No,Medium,Good,Market,6,Medium,High,Yes,No,High,Market Road,3,Market crowd incident
+Parel,Tata Memorial Hospital,Vehicle theft,29-01-2024 14:15,Monday,Afternoon,FALSE,FALSE,Sunny,Medium,1,Yes,Medium,Good,Medical,4,Medium,Medium,Yes,No,High,Hospital Road,2,Two-wheeler stolen
+Dadar,Siddhivinayak Temple,Pickpocketing,29-01-2024 06:30,Monday,Morning,FALSE,FALSE,Clear,High,0.8,Yes,High,Good,Religious,9,Medium,High,Yes,No,High,Temple Road,5,Temple crowd theft
+Matunga,South Indian Restaurants,Burglary,29-01-2024 02:45,Monday,Night,FALSE,FALSE,Clear,Low,1.5,No,Medium,Poor,Commercial,3,Medium,Low,No,No,Low,Restaurant Road,2,Restaurant break-in
+Sion,Sion Market,Pickpocketing,30-01-2024 11:20,Tuesday,Morning,FALSE,FALSE,Sunny,High,1.2,No,Medium,Good,Market,6,Medium,High,Yes,No,High,Market Road,4,Market crowd incident
+Kurla,Phoenix Marketcity,Credit card fraud,30-01-2024 15:45,Tuesday,Afternoon,FALSE,FALSE,Sunny,High,1,Yes,High,Good,Commercial,7,High,High,Yes,,,,,

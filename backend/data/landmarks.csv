@@ -1,0 +1,392 @@
+loc_id,location_name,latitude,longitude
+1,Taj Mahal,27.1993,78.0881
+2,India Gate,28.6378,77.2735
+3,Gateway of India,18.9024,72.8543
+4,Mysore Palace,12.2847,76.6745
+5,Charminar,17.3721,78.4552
+6,Red Fort,28.6432,77.2246
+7,Qutub Minar,28.5176,77.1989
+8,Hawa Mahal,26.9475,75.8103
+9,Golden Temple,31.6401,74.8895
+10,Ajanta Caves,20.5349,75.7312
+11,Ellora Caves,20.0023,75.1498
+12,Sun Temple, Konark,19.8672,86.1058
+13,Meenakshi Temple,9.8953,78.1354
+14,Sanchi Stupa,23.4523,77.7214
+15,Victoria Memorial,22.5261,88.3594
+16,Rashtrapati Bhavan,28.6201,77.2048
+17,Vivekananda Rock,8.0657,77.5404
+18,Kaziranga National Park,26.5543,93.1837
+19,Sundarbans,21.9285,89.1502
+20,Ranthambore National Park,26.0356,76.5124
+21,Lotus Temple,28.5428,77.2719
+22,Brihadeeswarar Temple,10.7634,79.1512
+23,Rameswaram Temple,9.3102,79.2994
+24,Kedarnath Temple,30.7586,79.0914
+25,Badrinath Temple,30.7492,79.4796
+26,Taj Mahal,27.1724,78.0342
+27,India Gate,28.6025,77.2198
+28,Gateway of India,18.9412,72.8193
+29,Mysore Palace,12.3197,76.6735
+30,Charminar,17.3842,78.4893
+31,Red Fort,28.6675,77.2501
+32,Qutub Minar,28.5291,77.1914
+33,Hawa Mahal,26.9112,75.8367
+34,Golden Temple,31.6258,74.8624
+35,Ajanta Caves,20.5632,75.7169
+36,Ellora Caves,20.0114,75.1637
+37,Sun Temple, Konark,19.8721,86.0789
+38,Meenakshi Temple,9.9098,78.1003
+39,Sanchi Stupa,23.4689,77.7511
+40,Victoria Memorial,22.5369,88.3391
+41,Rashtrapati Bhavan,28.6237,77.1924
+42,Vivekananda Rock,8.0843,77.5312
+43,Kaziranga National Park,26.5734,93.1612
+44,Sundarbans,21.9401,89.1710
+45,Ranthambore National Park,26.0234,76.4917
+46,Lotus Temple,28.5583,77.2810
+47,Brihadeeswarar Temple,10.7756,79.1295
+48,Rameswaram Temple,9.2989,79.3101
+49,Kedarnath Temple,30.7408,79.1027
+50,Badrinath Temple,30.7521,79.4859
+51,Taj Mahal,27.1911,78.0498
+52,India Gate,28.6087,77.2311
+53,Gateway of India,18.9156,72.8412
+54,Mysore Palace,12.2998,76.6783
+55,Charminar,17.3756,78.4678
+56,Red Fort,28.6483,77.2432
+57,Qutub Minar,28.5187,77.1805
+58,Hawa Mahal,26.9294,75.8215
+59,Golden Temple,31.6154,74.8857
+60,Ajanta Caves,20.5419,75.7261
+61,Ellora Caves,20.0243,75.1854
+62,Sun Temple, Konark,19.8905,86.0852
+63,Meenakshi Temple,9.9185,78.1129
+64,Sanchi Stupa,23.4862,77.7336
+65,Victoria Memorial,22.5412,88.3508
+66,Rashtrapati Bhavan,28.6182,77.2001
+67,Vivekananda Rock,8.0724,77.5476
+68,Kaziranga National Park,26.5801,93.1745
+69,Sundarbans,21.9337,89.1896
+70,Ranthambore National Park,26.0138,76.5102
+71,Lotus Temple,28.5456,77.2684
+72,Brihadeeswarar Temple,10.7703,79.1362
+73,Rameswaram Temple,9.2847,79.3205
+74,Kedarnath Temple,30.7322,79.0865
+75,Badrinath Temple,30.7459,79.4917
+76,Taj Mahal,27.1805,78.0367
+77,India Gate,28.6115,77.2284
+78,Gateway of India,18.9237,72.8329
+79,Mysore Palace,12.3091,76.6598
+80,Charminar,17.3594,78.4705
+81,Red Fort,28.6512,77.2369
+82,Qutub Minar,28.5263,77.1928
+83,Hawa Mahal,26.9187,75.8283
+84,Golden Temple,31.6172,74.8749
+85,Ajanta Caves,20.5592,75.7104
+86,Ellora Caves,20.0281,75.1779
+87,Sun Temple, Konark,19.8836,86.0972
+88,Meenakshi Temple,9.9201,78.1190
+89,Sanchi Stupa,23.4778,77.7405
+90,Victoria Memorial,22.5452,88.3449
+91,Rashtrapati Bhavan,28.6141,77.1953
+92,Vivekananda Rock,8.0798,77.5524
+93,Kaziranga National Park,26.5765,93.1693
+94,Sundarbans,21.9483,89.1822
+95,Ranthambore National Park,26.0194,76.5049
+96,Lotus Temple,28.5504,77.2597
+97,Brihadeeswarar Temple,10.7820,79.1287
+98,Rameswaram Temple,9.2879,79.3109
+99,Kedarnath Temple,30.7345,79.0612
+100,Badrinath Temple,30.7419,79.4942
+101,Taj Mahal,27.1733,78.0412
+102,India Gate,28.6137,77.2329
+103,Gateway of India,18.9224,72.8341
+104,Mysore Palace,12.3059,76.6601
+105,Charminar,17.3687,78.4782
+106,Red Fort,28.6543,77.2427
+107,Qutub Minar,28.5212,77.1896
+108,Hawa Mahal,26.9261,75.8229
+109,Golden Temple,31.6241,74.8774
+110,Ajanta Caves,20.5547,75.7152
+111,Ellora Caves,20.0213,75.1738
+112,Sun Temple, Konark,19.8867,86.0924
+113,Meenakshi Temple,9.9175,78.1183
+114,Sanchi Stupa,23.4809,77.7382
+115,Victoria Memorial,22.5436,88.3472
+116,Rashtrapati Bhavan,28.6179,77.1987
+117,Vivekananda Rock,8.0771,77.5511
+118,Kaziranga National Park,26.5782,93.1706
+119,Sundarbans,21.9465,89.1804
+120,Ranthambore National Park,26.0218,76.5003
+121,Lotus Temple,28.5541,77.2631
+122,Brihadeeswarar Temple,10.7815,79.1331
+123,Rameswaram Temple,9.2892,79.3087
+124,Kedarnath Temple,30.7379,79.0678
+125,Badrinath Temple,30.7462,79.4961
+126,Taj Mahal,27.1768,78.0394
+127,India Gate,28.6124,77.2301
+128,Gateway of India,18.9211,72.8356
+129,Mysore Palace,12.3043,76.6587
+130,Charminar,17.3669,78.4739
+131,Red Fort,28.6528,77.2391
+132,Qutub Minar,28.5239,77.1912
+133,Hawa Mahal,26.9233,75.8254
+134,Golden Temple,31.6227,74.8798
+135,Ajanta Caves,20.5524,75.7171
+136,Ellora Caves,20.0256,75.1763
+137,Sun Temple, Konark,19.8884,86.0947
+138,Meenakshi Temple,9.9159,78.1165
+139,Sanchi Stupa,23.4785,77.7417
+140,Victoria Memorial,22.5419,88.3495
+141,Rashtrapati Bhavan,28.6162,77.1972
+142,Vivekananda Rock,8.0753,77.5497
+143,Kaziranga National Park,26.5754,93.1721
+144,Sundarbans,21.9448,89.1789
+145,Ranthambore National Park,26.0182,76.5028
+146,Lotus Temple,28.5523,77.2617
+147,Brihadeeswarar Temple,10.7802,79.1354
+148,Rameswaram Temple,9.2868,79.3065
+149,Kedarnath Temple,30.7395,79.0652
+150,Badrinath Temple,30.7445,79.4983
+151,Taj Mahal,27.1745,78.0410
+152,India Gate,28.6140,77.2315
+153,Gateway of India,18.9220,72.8345
+154,Mysore Palace,12.3071,76.6592
+155,Charminar,17.3712,78.4763
+156,Red Fort,28.6537,77.2406
+157,Qutub Minar,28.5251,77.1903
+158,Hawa Mahal,26.9212,75.8271
+159,Golden Temple,31.6213,74.8782
+160,Ajanta Caves,20.5539,75.7158
+161,Ellora Caves,20.0237,75.1751
+162,Sun Temple, Konark,19.8899,86.0931
+163,Meenakshi Temple,9.9168,78.1174
+164,Sanchi Stupa,23.4796,77.7393
+165,Victoria Memorial,22.5445,88.3483
+166,Rashtrapati Bhavan,28.6157,77.1961
+167,Vivekananda Rock,8.0762,77.5505
+168,Kaziranga National Park,26.5763,93.1710
+169,Sundarbans,21.9456,89.1793
+170,Ranthambore National Park,26.0190,76.5017
+171,Lotus Temple,28.5530,77.2623
+172,Brihadeeswarar Temple,10.7810,79.1340
+173,Rameswaram Temple,9.2873,79.3079
+174,Kedarnath Temple,30.7381,79.0647
+175,Badrinath Temple,30.7431,79.4970
+176,Ajmer Sharif Dargah,26.4521,74.6399
+177,Amer Fort,26.9855,75.8513
+178,Mehrangarh Fort,26.2981,73.0186
+179,Gwalior Fort,26.2211,78.1745
+180,Chittorgarh Fort,24.8896,74.6239
+181,Jaisalmer Fort,26.9124,70.9120
+182,Jantar Mantar,28.6271,77.2166
+183,Humayun's Tomb,28.5933,77.2507
+184,Elephanta Caves,18.9633,72.9318
+185,Basilica of Bom Jesus,15.5009,73.9116
+186,Shaniwar Wada,18.5195,73.8553
+187,Rock Garden,30.7522,76.8054
+188,Chhatrapati Shivaji Terminus,18.9398,72.8355
+189,Howrah Bridge,22.5851,88.3469
+190,Birla Mandir,Hyderabad,17.4062,78.4691
+191,Birla Mandir,Delhi,28.6316,77.2008
+192,Birla Mandir,Kolkata,22.5322,88.3672
+193,Mahabodhi Temple,24.6950,84.9912
+194,Kanchenjunga,27.7025,88.1475
+195,Kanha National Park,22.3343,80.6115
+196,Bandhavgarh National Park,23.6883,81.0061
+197,Jim Corbett National Park,29.5303,78.7747
+198,Valley of Flowers,30.7280,79.6569
+199,Nanda Devi,30.3755,79.9712
+200,Sundarbans Mangroves,21.9492,89.1628
+201,Dudhsagar Falls,15.3143,74.3148
+202,Athirapally Falls,10.2855,76.5692
+203,Jog Falls,14.2351,74.7943
+204,Kempty Falls,30.4353,78.0459
+205,Mallikarjuna Temple,16.2343,78.8672
+206,Venkateswara Temple,13.6831,79.3471
+207,Puri Jagannath Temple,19.8133,85.8193
+208,Dwarkadhish Temple,22.2442,68.9675
+209,Somnath Temple,20.8880,70.4012
+210,Kumbhalgarh Fort,25.1463,73.5782
+211,Kailasa Temple,Ellora,20.0263,75.1769
+212,Anjuna Beach,15.5889,73.7444
+213,Palolem Beach,15.0112,74.0239
+214,Marina Beach,13.0491,80.2822
+215,Elliot's Beach,13.0002,80.2721
+216,Chowpatty Beach,18.9523,72.8212
+217,Baga Beach,15.5523,73.7512
+218,Varkala Beach,8.7362,76.7048
+219,Kovalam Beach,8.3974,76.9784
+220,Radhanagar Beach,11.5760,92.5833
+221,Neil Island,11.8300,93.0112
+222,Havelock Island,11.9680,92.9783
+223,Barren Island,12.2782,93.8581
+224,Lakshadweep Islands,10.5632,72.6421
+225,Andaman Islands,11.6670,92.7359
+226,Nicobar Islands,8.1500,93.6701
+227,Dzukou Valley,25.5947,94.0487
+228,Loktak Lake,24.5872,93.7774
+229,Chilika Lake,19.6810,85.4342
+230,Tawang Monastery,27.5815,91.8652
+231,Nathula Pass,27.3824,88.8334
+232,Zojila Pass,34.2563,75.4695
+233,Roopkund,30.2520,79.7314
+234,Pangong Lake,33.7593,78.5440
+235,Tso Moriri Lake,32.9988,78.6511
+236,Spiti Valley,32.2465,78.0169
+237,Chandratal Lake,32.4720,77.6167
+238,Key Monastery,32.2811,78.0057
+239,Tabo Monastery,32.0901,78.3795
+240,Dhankar Monastery,32.0881,78.2211
+241,Kargil,34.5536,76.1349
+242,Drass,34.4289,75.7490
+243,Leh Palace,34.1651,77.5846
+244,Hemis Monastery,33.9121,77.7025
+245,Shanti Stupa,34.1681,77.5823
+246,Magnetic Hill,34.0721,77.3157
+247,Khardung La,34.2803,77.6087
+248,Umling La,32.6932,79.2801
+249,Rohtang Pass,32.3668,77.2435
+250,Solang Valley,32.3161,77.1585
+1,Gateway of India,18.9220,72.8347
+2,Chhatrapati Shivaji Maharaj Terminus,18.9402,72.8356
+3,Marine Drive,18.9430,72.8239
+4,Haji Ali Dargah,18.9822,72.8080
+5,Siddhivinayak Temple,19.0169,72.8306
+6,Juhu Beach,19.0976,72.8265
+7,Elephanta Caves,18.9633,72.9318
+8,Worli Sea Link,19.0164,72.8158
+9,Chowpatty Beach,18.9543,72.8167
+10,Colaba Causeway,18.9156,72.8258
+11,Kanheri Caves,19.2086,72.9083
+12,Sanjay Gandhi National Park,19.2288,72.9106
+13,Nehru Science Centre,18.9936,72.8190
+14,Prince of Wales Museum,18.9262,72.8325
+15,Bandra Fort,19.0444,72.8211
+16,Mount Mary Church,19.0447,72.8194
+17,Global Vipassana Pagoda,19.2333,72.7955
+18,Mani Bhavan,18.9547,72.8118
+19,ISKCON Temple,19.1166,72.8260
+20,Taraporewala Aquarium,18.9545,72.8212
+21,National Gallery of Modern Art,18.9256,72.8319
+22,Babulnath Temple,18.9576,72.8112
+23,Versova Beach,19.1335,72.8037
+24,Madh Island,19.1432,72.7975
+25,Film City,19.1590,72.8742
+26,Jogeshwari Caves,19.1358,72.8632
+27,Marve Beach,19.2031,72.7855
+28,Manori Beach,19.2087,72.7843
+29,Aksa Beach,19.1755,72.7966
+30,Essel World,19.2371,72.7944
+31,Water Kingdom,19.2369,72.7932
+32,Powai Lake,19.1188,72.9043
+33,Hiranandani Gardens,19.1212,72.9096
+34,Mithi River,19.0790,72.8664
+35,Carter Road Promenade,19.0662,72.8237
+36,Bandra-Worli Sea Face,19.0311,72.8197
+37,Shivaji Park,19.0274,72.8397
+38,Dadar Flower Market,19.0211,72.8435
+39,Kala Ghoda,18.9285,72.8314
+40,Flora Fountain,18.9314,72.8338
+41,Horniman Circle Garden,18.9306,72.8311
+42,David Sassoon Library,18.9289,72.8315
+43,Asiatic Library,18.9322,72.8331
+44,Ballard Estate,18.9360,72.8371
+45,Regal Cinema,18.9215,72.8327
+46,Radio Club,18.9191,72.8296
+47,RC Church,18.9103,72.8264
+48,Afghan Church,18.9071,72.8187
+49,Colaba Woods Garden,18.9118,72.8223
+50,Oval Maidan,18.9329,72.8317
+51,Azad Maidan,18.9400,72.8350
+52,Cross Maidan,18.9382,72.8328
+53,Khotachiwadi,18.9487,72.8261
+54,Dhobi Ghat,18.9770,72.8225
+55,Mahalaxmi Temple,18.9805,72.8133
+56,Racecourse,18.9814,72.8149
+57,High Street Phoenix Mall,18.9945,72.8259
+58,Kamala Mills,19.0045,72.8276
+59,Lower Parel Skyline,19.0074,72.8283
+60,Shivaji Park,19.0241,72.8392
+61,Matunga King Circle,19.0335,72.8491
+62,Wadala IMAX,19.0178,72.8719
+63,Antilia,18.9697,72.8110
+64,Breach Candy,18.9627,72.8039
+65,Kemps Corner,18.9694,72.8092
+66,Pedder Road,18.9692,72.8138
+67,Hanging Gardens,18.9553,72.8056
+68,Kamal Nehru Park,18.9540,72.8045
+69,Malabar Hill,18.9500,72.8050
+70,Priya Darshini Park,18.9483,72.8072
+71,Tardeo,18.9686,72.8121
+72,Girgaum Chowpatty,18.9543,72.8145
+73,Opera House,18.9540,72.8211
+74,Grant Road,18.9536,72.8235
+75,Byculla Zoo,18.9764,72.8347
+76,St. Thomas Cathedral,18.9321,72.8335
+77,Wankhede Stadium,18.9389,72.8258
+78,Brabourne Stadium,18.9318,72.8254
+79,Mumbai Cricket Association,18.9395,72.8256
+80,Dome, NSCI,19.0113,72.8154
+81,Nepean Sea Road,18.9427,72.8055
+82,August Kranti Maidan,18.9624,72.8108
+83,Kala Ghoda Art Precinct,18.9287,72.8318
+84,Bhau Daji Lad Museum,18.9753,72.8360
+85,Nehru Planetarium,18.9912,72.8143
+86,IC Colony,19.2203,72.8508
+87,Linking Road,19.0726,72.8349
+88,Hill Road,19.0568,72.8284
+89,Turner Road,19.0551,72.8322
+90,Pali Hill,19.0673,72.8231
+91,Mehboob Studio,19.0527,72.8229
+92,Bandra Reclamation,19.0516,72.8208
+93,Mahim Dargah,19.0394,72.8399
+94,Shivaji Park Beach,19.0211,72.8352
+95,Dharavi,19.0488,72.8569
+96,Sion Fort,19.0432,72.8606
+97,Antop Hill,19.0197,72.8672
+98,Wadala Salt Pans,19.0133,72.8771
+99,Mazgaon Dock,18.9717,72.8469
+100,Fountain of Joy,18.9311,72.8329
+1,Victoria Memorial,22.5448,88.3426
+2,Howrah Bridge,22.5850,88.3468
+3,Dakshineswar Kali Temple,22.6558,88.3575
+4,Belur Math,22.6317,88.3555
+5,Indian Museum,22.5626,88.3513
+6,Kalighat Temple,22.5234,88.3465
+7,Prinsep Ghat,22.5564,88.3312
+8,Science City,22.5396,88.4076
+9,Marble Palace,22.5854,88.3639
+10,Eco Park,22.6035,88.4654
+11,St. Paul's Cathedral,22.5467,88.3510
+12,South Park Street Cemetery,22.5408,88.3552
+13,Alipore Zoo,22.5372,88.3312
+14,Nandan,22.5453,88.3525
+15,Millennium Park,22.5807,88.3477
+16,College Street,22.5765,88.3620
+17,Rabindra Sarobar,22.5033,88.3467
+18,Park Street,22.5525,88.3520
+19,New Market,22.5603,88.3512
+20,Netaji Bhawan,22.5437,88.3532
+loc_id,location_name,latitude,longitude
+21,India Gate,28.6129,77.2295
+22,Qutub Minar,28.5244,77.1855
+23,Red Fort,28.6562,77.2410
+24,Lotus Temple,28.5535,77.2588
+25,Humayun's Tomb,28.5933,77.2507
+26,Jama Masjid,28.6507,77.2334
+27,Akshardham Temple,28.6127,77.2773
+28,Rashtrapati Bhavan,28.6144,77.1996
+29,Connaught Place,28.6315,77.2167
+30,Lodhi Garden,28.5935,77.2196
+31,Chandni Chowk,28.6507,77.2305
+32,Jantar Mantar,28.6271,77.2166
+33,National Museum,28.6113,77.2195
+34,Hauz Khas Village,28.5494,77.1970
+35,Safdarjung Tomb,28.5883,77.2106
+36,Mehrauli Archaeological Park,28.5182,77.1838
+37,Purana Qila,28.6092,77.2438
+38,ISKCON Temple,28.5623,77.2598
+39,Nehru Planetarium,28.6130,77.1978
+40,Delhi Haat,28.5679,77.2090

@@ -1,0 +1,12 @@
+streamlit
+firebase-admin
+folium
+streamlit_folium 
+requests
+pandas
+numpy
+matplotlib
+streamlit_shadcn_ui
+statsmodels
+scikit-learn
+tensorflow

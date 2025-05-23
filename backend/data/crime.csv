@@ -1,0 +1,32 @@
+incident_id,date,time,city,state,crime_type,location_description,risk_score,latitude,longitude
+51,2025-02-23,09:15:30,Mumbai,Maharashtra,Theft,Residential Area,0.6,19.1150,72.8450
+52,2025-02-23,22:30:10,Mumbai,Maharashtra,Assault,Street,0.8,19.0580,72.8340
+53,2025-02-22,18:45:00,Mumbai,Maharashtra,Robbery,Market,0.7,18.9220,72.8330
+54,2025-02-22,03:10:00,Mumbai,Maharashtra,Burglary,Industrial Zone,0.7,19.0180,72.8560
+55,2025-02-21,20:50:00,Mumbai,Maharashtra,Theft,Parking Lot,0.8,19.0140,72.8230
+56,2025-02-21,11:20:00,Mumbai,Maharashtra,Assault,School,0.7,19.0360,72.8320
+57,2025-02-20,17:45:00,Mumbai,Maharashtra,Theft,Shopping Mall,0.6,19.1700,72.8350
+58,2025-02-20,23:55:00,Mumbai,Maharashtra,Robbery,ATM,0.5,19.2250,72.8400
+59,2025-02-19,14:30:00,Mumbai,Maharashtra,Assault,Public Park,0.6,19.1350,72.8390
+60,2025-02-19,02:10:00,Mumbai,Maharashtra,Burglary,Warehouse,0.7,19.0400,72.9000
+61,2025-02-18,20:05:00,Mumbai,Maharashtra,Theft,Residential Area,0.8,19.0920,72.9100
+62,2025-02-18,16:20:00,Mumbai,Maharashtra,Assault,Bus Stop,0.7,19.0800,72.8700
+63,2025-02-17,13:55:00,Mumbai,Maharashtra,Robbery,Jewelry Store,0.7,19.1190,72.9100
+64,2025-02-17,21:40:00,Mumbai,Maharashtra,Theft,Gas Station,0.6,19.0900,72.8700
+65,2025-02-16,10:05:00,Mumbai,Maharashtra,Assault,Office Building,0.8,19.0400,72.8250
+66,2025-02-16,19:30:00,Mumbai,Maharashtra,Burglary,Restaurant,0.7,19.1200,72.9200
+67,2025-02-15,08:15:00,Mumbai,Maharashtra,Theft,Train Station,0.7,19.0200,72.8700
+68,2025-02-15,23:10:00,Mumbai,Maharashtra,Robbery,Highway,0.6,19.2000,72.8500
+69,2025-02-14,14:50:00,Mumbai,Maharashtra,Assault,Beach,0.7,19.0600,72.8400
+70,2025-02-14,21:05:00,Mumbai,Maharashtra,Theft,Shopping Mall,0.8,19.1350,72.8450
+71,2025-02-13,12:00:00,Mumbai,Maharashtra,Burglary,School,0.6,19.0250,72.8650
+72,2025-02-13,18:30:00,Mumbai,Maharashtra,Theft,Public Park,0.7,19.0120,72.8560
+73,2025-02-12,11:45:00,Mumbai,Maharashtra,Robbery,Street,0.7,19.1150,72.8600
+74,2025-02-12,20:25:00,Mumbai,Maharashtra,Assault,Club,0.8,19.0580,72.8300
+75,2025-02-11,17:00:00,Mumbai,Maharashtra,Theft,Residential Area,0.7,18.9200,72.8300
+76,2025-02-11,22:45:00,Mumbai,Maharashtra,Burglary,Warehouse,0.6,19.0170,72.8600
+77,2025-02-10,15:30:00,Mumbai,Maharashtra,Theft,Restaurant,0.8,19.0140,72.8250
+78,2025-02-10,21:15:00,Mumbai,Maharashtra,Robbery,Bus Stop,0.5,19.0360,72.8320
+79,2025-02-09,09:00:00,Mumbai,Maharashtra,Assault,Market,0.6,19.1700,72.8600
+80,2025-02-09,19:45:00,Mumbai,Maharashtra,Theft,Parking Lot,0.8,19.2200,72.8400
+

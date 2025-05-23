@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHRAMAN - Mood Based Travel Recommendation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <style>
+        :root {
+            --primary-color: #FF6B6B;
+            --secondary-color: #FF8E53;
+            --accent-color: #FF4B8C;
+            --bg-dark: #0A0A0A;
+            --card-bg: #1A1A1A;
+            --text-light: #ffffff;
+            --text-gray: #B0B0B0;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--bg-dark) 0%, #151515 100%);
+            color: var(--text-light);
+            font-family: 'Poppins', sans-serif;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .container {
+            max-width: 1200px;
+            padding: 2rem;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 3rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--accent-color));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: titleAnimation 2s ease-in-out;
+            text-shadow: 0 0 30px rgba(255, 107, 107, 0.3);
+        }
+
+        .subtitle {
+            color: var(--text-gray);
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .filters-container {
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .filter-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .filter-label {
+            display: block;
+            color: var(--text-gray);
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            text-align: left;
+        }
+
+        .form-select, .form-control {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1.1rem;
+            background: #ffffff;
+            border: 2px solid var(--primary-color);
+            border-radius: 12px;
+            color: #000000;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .form-select option {
+            background: #ffffff;
+            color: #000000;
+            padding: 10px;
+        }
+
+        .form-select:hover, .form-control:hover {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 25px rgba(255, 75, 140, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .people-counter {
+            display: flex;
+            align-items: center;
+            background: #ffffff;
+            border: 2px solid var(--primary-color);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .counter-btn {
+            background: #f0f0f0;
+            border: none;
+            color: #000;
+            font-size: 1.2rem;
+            width: 40px;
+            height: 45px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .counter-btn:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .counter-value {
+            flex: 1;
+            text-align: center;
+            font-size: 1.1rem;
+            color: #000;
+            padding: 0.5rem;
+            border: none;
+            background: transparent;
+        }
+
+        .search-btn {
+            background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .search-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
+        }
+
+        .recommendations-container {
+            padding: 2rem 0;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.5s ease;
+        }
+
+        .recommendations-container.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .row {
+            margin: 0 -15px;
+        }
+
+        .col-md-6 {
+            padding: 15px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: none;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            height: 100%;
+            position: relative;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            max-width: 480px;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+
+        .card a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            height: 100%;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 20px;
+            border: 2px solid transparent;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--accent-color)) border-box;
+            -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: all 0.3s ease;
+            pointer-events: none;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 15px 30px rgba(255, 107, 107, 0.2);
+        }
+
+        .card:hover::before {
+            opacity: 1;
+        }
+
+        .card-img-container {
+            position: relative;
+            padding-top: 50%;
+            overflow: hidden;
+        }
+
+        .card-img-top {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .card:hover .card-img-top {
+            transform: scale(1.1);
+        }
+
+        .card-body {
+            padding: 1.5rem;
+            background: linear-gradient(to top, var(--card-bg) 0%, rgba(26, 26, 26, 0.95) 100%);
+        }
+
+        .card-title {
+            color: #FF8E53;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-text {
+            color: var(--text-gray);
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-label {
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.3rem;
+        }
+
+        .activity-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .activity-tag {
+            background: rgba(255, 107, 107, 0.2);
+            color: var(--primary-color);
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        .loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.9);
+            padding: 2rem;
+            border-radius: 15px;
+            display: none;
+            z-index: 1000;
+            border: 2px solid var(--accent-color);
+        }
+
+        .spinner-border {
+            color: var(--accent-color) !important;
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+
+        /* Select2 Custom Styling */
+        .select2-container {
+            width: 100% !important;
+        }
+
+        .select2-container .select2-selection--multiple {
+            min-height: 50px;
+            border: 2px solid var(--primary-color);
+            border-radius: 12px;
+            background-color: #fff;
+        }
+
+        /* Fix for the dropdown text color */
+        .select2-container--default .select2-results__option {
+            color: #000000;
+            padding: 8px 12px;
+        }
+
+        /* Fix for the highlighted item in dropdown */
+        .select2-container--default .select2-results__option--highlighted[aria-selected] {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        /* Style for the selected choices */
+        .select2-container--default .select2-selection--multiple .select2-selection__choice {
+            background-color: var(--primary-color);
+            border: none;
+            color: white;
+            border-radius: 4px;
+            position: relative;
+            margin: 4px;
+            padding-left: 20px; /* Change from 'padding-right: 20px' */
+            padding-right: 8px; /* Adjust right padding */
+        }
+
+        .select2-dropdown {
+            border: 2px solid var(--primary-color);
+            border-radius: 12px;
+            overflow: hidden;
+            background-color: white;
+        }
+
+        /* Make sure search field is visible */
+        .select2-search__field {
+            color: #000000;
+        }
+
+        /* Fix placeholder color */
+        .select2-container--default .select2-search--inline .select2-search__field::placeholder {
+            color: #666;
+        }
+
+        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+            color: white;
+            position: absolute;
+            left: 4px; /* Change from 'right: 4px' to 'left: 4px' */
+            top: 50%;
+            transform: translateY(-50%);
+            margin-right: 0;
+            font-weight: bold;
+        }
+        
+        /* Add padding to the left side of the choice text to make room for the × button */
+        .select2-container--default .select2-selection--multiple .select2-selection__choice {
+            padding-left: 20px; /* Change from 'padding-right: 20px' */
+            padding-right: 8px; /* Adjust right padding */
+        }
+
+        @keyframes titleAnimation {
+            0% { transform: translateY(-30px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @media (max-width: 1200px) {
+            .container {
+                max-width: 960px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .title {
+                font-size: 2.8rem;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+            
+            .card {
+                margin-bottom: 1rem;
+            }
+
+            .card-body {
+                padding: 1.2rem;
+            }
+
+            .card-title {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero-section">
+            <h1 class="title">Discover Your Perfect Getaway</h1>
+            <p class="subtitle">Let your mood guide you to extraordinary destinations</p>
+            
+            <div class="filters-container">
+                <div class="filter-item">
+                    <label class="filter-label">How are you feeling today?</label>
+                    <select class="form-select" id="moodSelect">
+                        <option value="">Select your mood</option>
+                        {% for mood in moods %}
+                        <option value="{{ mood }}">{{ mood|title }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="filter-item">
+                    <label class="filter-label">What activities are you interested in?</label>
+                    <select class="form-select" id="activitiesSelect" multiple="multiple">
+                        {% for activity in activities %}
+                        <option value="{{ activity }}">{{ activity|title }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="filter-item">
+                    <label class="filter-label">Number of travelers</label>
+                    <div class="people-counter">
+                        <button class="counter-btn" id="decreasePeople"><i class="fas fa-minus"></i></button>
+                        <input type="number" id="peopleCount" class="counter-value" value="1" min="1" max="10" readonly>
+                        <button class="counter-btn" id="increasePeople"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                
+                <button class="search-btn" id="searchBtn">Find My Perfect Getaway</button>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+        <div class="recommendations-container" id="recommendationsContainer">
+            <!-- Cards will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Initialize Select2 for multi-select
+            $('#activitiesSelect').select2({
+                placeholder: "Select one or more activities",
+                allowClear: true,
+                templateSelection: function(data) {
+                    return $('<span class="select2-selection__choice__text">' + data.text + '</span>');
+                }
+            });
+            
+            // People counter functionality
+            $('#decreasePeople').click(function() {
+                const currentVal = parseInt($('#peopleCount').val());
+                if (currentVal > 1) {
+                    $('#peopleCount').val(currentVal - 1);
+                }
+            });
+            
+            $('#increasePeople').click(function() {
+                const currentVal = parseInt($('#peopleCount').val());
+                if (currentVal < 10) {
+                    $('#peopleCount').val(currentVal + 1);
+                }
+            });
+            
+            // Search button click event
+            $('#searchBtn').click(function() {
+                const mood = $('#moodSelect').val();
+                const activities = $('#activitiesSelect').val();
+                const people = $('#peopleCount').val();
+                
+                // Validation
+                if (!mood) {
+                    alert('Please select your mood to continue.');
+                    return;
+                }
+                
+                $('#loading').fadeIn();
+                $('#recommendationsContainer').removeClass('show');
+                
+                $.ajax({
+                    url: '/predict',
+                    method: 'POST',
+                    data: { 
+                        mood: mood,
+                        activities: JSON.stringify(activities),
+                        people: people 
+                    },
+                    success: function(data) {
+                        let html = '';
+                        
+                        for (let i = 0; i < data.length; i += 2) {
+                            html += '<div class="row">';
+                            
+                            // First card in row
+                            html += createCard(data[i]);
+                            
+                            // Second card in row (if exists)
+                            if (i + 1 < data.length) {
+                                html += createCard(data[i + 1]);
+                            }
+                            
+                            html += '</div>';
+                        }
+                        
+                        $('#recommendationsContainer').html(html);
+                        
+                        // Add click event to all cards
+                        $('.card').on('click', function() {
+                            window.location.href = 'http://localhost:5173/travel';
+                        });
+                        
+                        setTimeout(() => {
+                            $('#loading').fadeOut();
+                            $('#recommendationsContainer').addClass('show');
+                        }, 500);
+                    },
+                    error: function() {
+                        $('#loading').fadeOut();
+                        alert('Error loading recommendations. Please try again.');
+                    }
+                });
+            });
+
+            function createCard(place) {
+                // Create activity tags HTML
+                let activitiesHTML = '';
+                if (place.activities && place.activities.length > 0) {
+                    activitiesHTML = '<div class="activity-tags">';
+                    place.activities.forEach(activity => {
+                        activitiesHTML += `<span class="activity-tag">${activity}</span>`;
+                    });
+                    activitiesHTML += '</div>';
+                }
+                
+                return `
+                    <div class="col-md-6">
+                        <div class="card">
+                            <a href="http://localhost:5173/travel">
+                                <div class="card-img-container">
+                                    <img src="${place.image_url}" class="card-img-top" alt="${place.city}">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">${place.city}, ${place.state}</h5>
+                                    <div class="card-reason">
+                                        <div class="card-label">Perfect for your mood:</div>
+                                        <p class="card-text">${place.mood_reason}</p>
+                                    </div>
+                                    <div class="card-reason">
+                                        <div class="card-label">Activities you'll love:</div>
+                                        <p class="card-text">${place.activities_reason}</p>
+                                        ${activitiesHTML}
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>
